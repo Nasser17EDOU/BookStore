@@ -1,0 +1,26 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    -fx-background-color: black;
+}
+
+.loginPagePicturePane{
+    -fx-background-image: url("images/image1.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-background-size:  500px 450px
+}
+
+.loginTxtField{
+    -fx-background-color: none;
+    -fx-border-style: none none solid none;
+    -fx-border-color: #ffbf00;
+    -fx-text-fill: white;
+}
+
+.loginButton{
+    -fx-background-color: #005fff;
+    -fx-text-fill: white;
+}

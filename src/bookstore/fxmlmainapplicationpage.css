@@ -1,0 +1,18 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+    -fx-background-color: black;
+    -fx-background-image: url("images/image1.jpg");
+    /*-fx-background-repeat: no-repeat;*/
+    -fx-background-position: center center;
+}
+
+.headerPane{
+    -fx-background-color: white;
+}
+
+.AddOrSubBookFrmStock{
+    -fx-background-color: #a5fcff;
+}

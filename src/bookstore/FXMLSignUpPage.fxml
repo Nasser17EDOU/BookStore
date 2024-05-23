@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="361.0" prefWidth="660.0" styleClass="mainFxmlClass" stylesheets="@fxmllogingpage.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bookstore.FXMLSignUpPageController">
+   <children>
+      <Pane prefHeight="364.0" prefWidth="333.0" styleClass="loginPagePicturePane" stylesheets="@fxmllogingpage.css" />
+      <Label layoutX="429.0" layoutY="14.0" prefHeight="31.0" prefWidth="116.0" text="Sign Up">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.1456310679611651" endY="0.9563106796116504" startX="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="BLACK" offset="0.007246376811594203" />
+                  <Stop color="BLACK" offset="0.007246376811594203" />
+                  <Stop color="#ffbf00" offset="0.057971014492753624" />
+                  <Stop color="#ffbf00" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <TextField fx:id="firstNameTxt" layoutX="351.0" layoutY="59.0" prefHeight="31.0" prefWidth="126.0" promptText="First Name" styleClass="loginTxtField" />
+      <PasswordField fx:id="confirmPwdTxt" layoutX="351.0" layoutY="244.0" prefHeight="33.0" prefWidth="197.0" promptText="Confirm Password" styleClass="loginTxtField" />
+      <Button fx:id="goToLoginBtn" layoutX="542.0" layoutY="319.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="104.0" styleClass="loginButton" text="Go To Login" />
+      <Button fx:id="signUpBtn" layoutX="351.0" layoutY="295.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="88.0" styleClass="loginButton" text="SignUp" />
+      <TextField fx:id="lastNameTxt" layoutX="530.0" layoutY="59.0" prefHeight="24.0" prefWidth="116.0" promptText="Last Name" styleClass="loginTxtField" />
+      <TextField fx:id="userNameTxt" layoutX="351.0" layoutY="101.0" prefHeight="21.0" prefWidth="197.0" promptText="Username" styleClass="loginTxtField" />
+      <TextField fx:id="emailTxt" layoutX="351.0" layoutY="149.0" prefHeight="21.0" prefWidth="197.0" promptText="Email" styleClass="loginTxtField" />
+      <TextField fx:id="pwdTxt" layoutX="351.0" layoutY="195.0" prefHeight="21.0" prefWidth="197.0" promptText="Password" styleClass="loginTxtField" />
+   </children>
+</AnchorPane>
